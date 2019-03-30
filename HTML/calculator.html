@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../CSS/calculator.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700i" rel="stylesheet">
+</head>
+<body>
+        <h1 id="title">Mind Blowing Calculator</h1>
+        <div id="calculator">
+            <input type="text" name="" id="res" placeholder="Result" disabled>
+            <input type="text" name="" id="calc" placeholder="Calculate The Hell Out Of It..">
+            <table class="tg">
+                <tr>
+                  <th class="tg-0pky" colspan="2"><button id="ac" onclick="ac()">AC</button></th>
+                  <th class="tg-0pky"><button id="rest" onclick="rest()">%</button></th>
+                  <th class="tg-0pky"><button id="multi" onclick="multi()">*</button></th>
+                </tr>
+                <tr>
+                  <td class="tg-0pky"><button id="num7" onclick="num7()">7</button></td>
+                  <td class="tg-0pky"><button id="num8" onclick="num8()">8</button></td>
+                  <td class="tg-0pky"><button id="num9" onclick="num9()">9</button></td>
+                  <td class="tg-0pky"><button id="div" onclick="divide()">/</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-0pky"><button id="num4" onclick="num4()">4</button></td>
+                  <td class="tg-0pky"><button id="num5" onclick="num5()">5</button></td>
+                  <td class="tg-0pky"><button id="num6" onclick="num6()">6</button></td>
+                  <td class="tg-0pky"><button id="minus" onclick="minus()">-</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-0pky"><button id="num1" onclick="num1()">1</button></td>
+                  <td class="tg-0pky"><button id="num2" onclick="num2()">2</button></td>
+                  <td class="tg-0pky"><button id="num3" onclick="num3()">3</button></td>
+                  <td class="tg-0pky"><button id="plus" onclick="plus()">+</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-0pky" colspan="2"><button id="zero" onclick="num0()">0</button></td>
+                  <td class="tg-0pky"><button id="point" onclick="comma()">.</button></td>
+                  <td class="tg-0pky"><button id="equal" onclick="equal()">=</button></td>
+                </tr>
+              </table>
+        </div>
+    <script src="../JS/calculator.js"></script>
+</body>
+</html>
